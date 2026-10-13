@@ -1,0 +1,26 @@
+# ホスト直下の robots.txt。Google などのクローラーはここだけを読む（/y2027/robots.txt などは読まれない）
+# 禁止は書かない。年ごとのサイトのサイトマップの場所だけを知らせる
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: *
+Allow: /
+
+Sitemap: https://kuronekotaiwan-matsuri.github.io/y2027/sitemap.xml
+Sitemap: https://kuronekotaiwan-matsuri.github.io/y2026/sitemap.xml
